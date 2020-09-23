@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<dictionnaire>
+    <mots niveau="0">
+        <mot>maman</mot>
+        <mot>papa</mot>
+    </mots>
+    <mots niveau="2">
+        <mot>kiwi</mot>
+        <mot>lit</mot>
+    </mots>
+    <mots niveau="3">
+        <mot>banane</mot>
+        <mot>pomme</mot>
+    </mots>
+    <mots niveau="4">
+        <mot>ordinateur</mot>
+        <mot>clavier</mot>
+    </mots>
+    <mots niveau="5">
+        <mot>alphabet</mot>
+        <mot>orange</mot>
+    </mots>
+    
+</dictionnaire>

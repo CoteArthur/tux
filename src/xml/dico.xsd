@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<xs:schema version="1.0"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    elementFormDefault="qualified"
+
+    targetNamespace="http://www.l3miage.fr/dico"
+    xmlns:dico="http://www.l3miage.fr/dico"
+>
+
+    <xs:element name="dictionnaire" type="dico:Dictionnaire"/>
+    <xs:complexType name="Dictionnaire">
+        <xs:sequence>
+            <xs:element name="mots" type="dico:Mots" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="Mots">
+        <xs:sequence>
+            <xs:element name="mot" type="dico:Mot"/>
+            <xs:element name="mot" type="dico:Mot"/>
+        </xs:sequence>
+        <xs:attribute name="niveau" type="xs:string"/>
+    </xs:complexType>
+
+    <xs:simpleType name="Mot">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="([a-zA-Z\-])*"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>
