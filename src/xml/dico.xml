@@ -6,26 +6,24 @@ and open the template in the editor.
 -->
 
 
-<dictionnaire>
-    <mots niveau="0">
-        <mot>maman</mot>
-        <mot>papa</mot>
-    </mots>
-    <mots niveau="2">
-        <mot>kiwi</mot>
-        <mot>lit</mot>
-    </mots>
-    <mots niveau="3">
-        <mot>banane</mot>
-        <mot>pomme</mot>
-    </mots>
-    <mots niveau="4">
-        <mot>ordinateur</mot>
-        <mot>clavier</mot>
-    </mots>
-    <mots niveau="5">
-        <mot>alphabet</mot>
-        <mot>orange</mot>
-    </mots>
+<tux:dictionnaire
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xmlns:tux='http://myGame/tux'
+    xsi:schemaLocation='http://myGame/tux file:/home/c/cotear/Documents/LangagePourLeWeb/tux/src/xml/dico.xsd'>
     
-</dictionnaire>
+    <tux:mot niveau="1">maman</tux:mot>
+    <tux:mot niveau="1">papa</tux:mot>
+
+    <tux:mot niveau="2">kiwi</tux:mot>
+    <tux:mot niveau="2">lit</tux:mot>
+
+    <tux:mot niveau="3">banane</tux:mot>
+    <tux:mot niveau="3">pomme</tux:mot>
+
+    <tux:mot niveau="4">ordinateur</tux:mot>
+    <tux:mot niveau="4">clavier</tux:mot>
+
+    <tux:mot niveau="5">alphabet</tux:mot>
+    <tux:mot niveau="5">orange</tux:mot>
+
+</tux:dictionnaire>
