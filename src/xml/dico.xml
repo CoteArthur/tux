@@ -9,7 +9,7 @@ and open the template in the editor.
 <tux:dictionnaire
     xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
     xmlns:tux='http://myGame/tux'
-    xsi:schemaLocation='http://myGame/tux file:/home/c/cotear/Documents/LangagePourLeWeb/tux/src/xml/dico.xsd'>
+    xsi:schemaLocation='http://myGame/tux dico.xsd'>
     
     <tux:mot niveau="1">maman</tux:mot>
     <tux:mot niveau="1">papa</tux:mot>
