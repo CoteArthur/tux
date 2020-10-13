@@ -9,7 +9,7 @@
 -->
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
-    xmlns:tux="http://myGame/tux">
+xmlns:tux="http://myGame/tux">
     <xsl:output method="html"/>
 
     <xsl:key name="mot-by-niveau" match="tux:mot" use="@niveau"/>
